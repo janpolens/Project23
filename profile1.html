@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile</title>
+	<link rel="stylesheet" href="profile.css">
 </head>
 <body>
+	<header>
+		<div class="logo">PROFILE</div>
+		<div class="Responsive">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+		<div class="logo">
+			<img src="img/logoWils.png" width="270px">
+		</div>
+		<nav class="nav-bar">
+			<ul>
+				<li class="active"><a href="profile.html">Profile</a></li>
+				<li><a href="Travel.html">Travel</a></li>
+	
+			</ul>
+		</nav>
+	</header>
+				</div>
+		<div class="row">
+			<div class="column2">
+				 <h1>HI IM BAACLO <br> 21 year's old </h1>
+				 <p>From Cagayan de Oro City, My goal is to enhance my skills about how to create a webpage.</p>
+			</div>
+			<div class="column2">
+				<img src="baaclo.jpg">	
+			</div>
+	  </div>
+	<script>
+		Responsive = document.querySelector(".Responsive");
+		Responsive.onclick = function() {
+			navBar = document.querySelector(".nav-bar");
+			navBar.classList.toggle("active");
+		}
+	</script>
 
 </body>
 </html>
